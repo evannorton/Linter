@@ -3,7 +3,8 @@ const { resolve, join } = require("path");
 
 const eslint = new ESLint({
   cwd: resolve(),
-  resolvePluginsRelativeTo: join(__dirname, "..")
+  resolvePluginsRelativeTo: join(__dirname, ".."),
+  extensions: [".ts"]
 });
 
 eslint.lintFiles(process.argv[3]).then((results) => {
