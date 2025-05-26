@@ -1,0 +1,25 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evannorton/Linter.git"
+  },
+  "dependencies": {
+    "eslint": "8.55.0"
+  },
+  "author": "Evan Norton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evannorton/Linter/issues"
+  },
+  "homepage": "https://github.com/evannorton/Linter#readme",
+  "bin": {
+    "lint": "./cli/index.js"
+  }
+}
