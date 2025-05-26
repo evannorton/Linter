@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/evannorton/Linter#readme",
   "bin": {
-    "lint": "./cli/index.js"
+    "linter": "./cli/index.js"
   }
 }
